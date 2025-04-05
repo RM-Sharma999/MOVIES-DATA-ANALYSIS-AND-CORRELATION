@@ -5,3 +5,17 @@ This project involves bit of Exploratory Data Analysis (EDA), data cleaning of t
 
 # Dataset
 The dataset used for this project contains information about movies, including details such as movie name, rating, genre, year of release, IMDb score, viewer votes, Director, Writer, star, budget, gross revenue, country, production company and Runtime.
+
+## 📁 About the Dataset
+
+- **Source**: Kaggle (The Movie Dataset)
+- **Entries**: ~5,000 movies
+- **Features**:
+  - `budget`: Budget of the movie
+  - `revenue`: Revenue generated
+  - `vote_average`: Average viewer rating
+  - `vote_count`: Total number of votes
+  - `runtime`: Duration of the movie
+  - `popularity`, `release_year`, etc.
+
+---
