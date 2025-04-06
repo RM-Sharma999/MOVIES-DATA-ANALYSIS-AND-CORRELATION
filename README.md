@@ -6,7 +6,7 @@ This project involves bit of Exploratory Data Analysis (EDA), data cleaning of t
 
 ---
 
-# 📁 About the Dataset
+## 📁 About the Dataset
 
 - **Source**: Kaggle (The Movie Dataset)
 - **Entries**: ~5,000 movies
