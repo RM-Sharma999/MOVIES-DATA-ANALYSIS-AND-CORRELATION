@@ -27,25 +27,32 @@ This project involves bit of Exploratory Data Analysis (EDA), data cleaning of t
 
 ## 📊 Visualizations & Insights
 
-### 🎯 1. Budget vs Gross Revenue  
-This scatter plot reveals a strong positive correlation between a movie's budget and its gross revenue. However, the data also shows outliers—low-budget films that made huge profits, and high-budget films that failed to recover costs. This suggests that while budget is important, it's not the only factor influencing success.
+### 💰 Gross Revenue vs Budget
+This scatter plot highlights the relationship between a movie’s budget and its gross revenue. There is a clear positive trend—movies with higher budgets generally tend to earn more. However, there are significant outliers where low-budget films have achieved massive success, and some high-budget films have underperformed. This suggests that while investing more increases the potential for returns, success ultimately depends on multiple factors, such as content quality, timing, and audience connection.
+![](https://i.imgur.com/v17Op6L.png)
 
-### ⭐ 2. IMDb Score vs Viewer Votes  
-The data shows a moderate positive relationship between IMDb rating and number of votes. Movies with higher IMDb scores typically receive more attention and engagement. However, some cult classics with high ratings received fewer votes, indicating a niche but passionate audience base.
+### ⭐ Gross Revenue vs IMDb Score
+This plot compares a film's IMDb rating with its gross revenue. While there's a slight upward trend, the correlation is weak. It shows that critical acclaim (high IMDb score) doesn't always translate to box office success. Some films with average ratings can generate huge revenue due to factors like brand/franchise value, marketing, or star power, while others with high ratings may have limited commercial reach. This visualization emphasizes the difference between popularity and quality.
+![](https://i.imgur.com/gZvF87k.png)
 
-### 🎥 3. Genre Popularity Over Time  
-Bar plots and count plots help visualize how certain genres have trended over the years. Action, Drama, and Comedy remain dominant, while genres like Documentary and Musical show sporadic but notable success depending on era or societal interest.
+### 🔗 Correlation Matrix for Numerical Features
+This heatmap presents the correlation between different numerical attributes such as budget, gross revenue, votes, score, and runtime. Notable insights:
 
-### 🧑‍🎓 4. Director and Star Impact  
-Using group-by analysis and aggregation, we examined the influence of directors and lead stars on movie performance. Directors with consistent hits can boost a movie's chances, and some stars appear in multiple high-grossing or high-rated films—indicating their draw at the box office.
+Gross revenue is strongly correlated with budget and number of votes, indicating that well-funded and widely watched films often perform better financially.
 
-### ⏱️ 5. Runtime vs IMDb Score  
-A scatter plot between runtime and IMDb score shows no strong linear relationship. Both short and long films can be rated highly, depending on content quality and audience preference.
+IMDb score correlates moderately with votes, but less so with gross, reinforcing earlier observations.
 
-### 📈 6. Correlation Heatmap
-A heatmap provided a comprehensive view of how numerical features relate. Strong positive correlations were found between:
-- Budget and Revenue  
-- Viewer Votes and IMDb Score  
-- Budget and Vote Count  
-Interestingly, runtime showed weak correlation with most metrics.
+Other features like runtime have weaker correlations, suggesting a less direct influence on success.
+
+This matrix helps pinpoint which factors are most aligned with financial and popular success.
 ![](https://i.imgur.com/F8pdckB.png)
+
+### 🏢 Top 15 Production Companies by Gross Revenue  
+This bar chart showcases the top 15 production companies ranked by their total gross revenue. Dominant names like Warner Bros., Universal Pictures, and Walt Disney top the list, reflecting their consistent production of blockbuster hits. These companies often benefit from large budgets, global marketing reach, and established franchises. It gives a sense of which studios have the strongest financial footprint in the industry.
+![](https://i.imgur.com/DxuDSl4.png)
+
+📆 Top 15 Companies by Gross Revenue Per Year
+This multi-year bar chart shows how the top-grossing companies have performed year by year. It offers a time-series perspective, highlighting how studios rise and fall over different years. For example, certain years may be dominated by Disney due to Marvel or Pixar releases, while others see Universal or Warner Bros. take the lead. This visualization reflects how industry leadership can shift based on release schedules, mergers, or trends in audience preferences.
+![](https://i.imgur.com/Bk6ljkr.png)
+
+
