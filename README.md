@@ -43,7 +43,7 @@ Using group-by analysis and aggregation, we examined the influence of directors 
 A scatter plot between runtime and IMDb score shows no strong linear relationship. Both short and long films can be rated highly, depending on content quality and audience preference.
 
 ### 📈 6. Correlation Heatmap
-![](https://imgur.com/F8pdckB)
+![](<blockquote class="imgur-embed-pub" lang="en" data-id="F8pdckB"><a href="https://imgur.com/F8pdckB">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
 A heatmap provided a comprehensive view of how numerical features relate. Strong positive correlations were found between:
 - Budget and Revenue  
 - Viewer Votes and IMDb Score  
