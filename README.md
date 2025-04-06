@@ -23,7 +23,6 @@ This project involves bit of Exploratory Data Analysis (EDA), data cleaning of t
   - `production company`: Studio or company behind the movie
   - `runtime`: Duration of the movie in minutes
 
----
 
 ## 📊 Visualizations & Insights
 
