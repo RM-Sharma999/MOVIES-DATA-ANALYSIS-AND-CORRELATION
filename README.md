@@ -13,7 +13,27 @@ movie name, rating, genre, year of release, IMDb score, viewer votes, Director, 
 - **Features**:
   - `budget`: Budget of the movie
   - `movie name`: Title of the movie
-  - | `genre`               | Movie genre(s) such as Action, Drama, etc. |
+  - `genre`: Movie genre(s) such as Action, Drama, etc.
+  - `year of release`: Year the movie was released
+  - `IMDb score`: IMDb rating on a scale of 1–10
+  - `viewer votes`: Number of votes received by viewers
+  - `rating`: MPAA rating (PG, PG-13, R, etc.)
+  - `director`: Name of the director
+  - `writer`: Name of the writer(s)
+  - `star`: Lead actor/actress
+  - `budget`: Estimated production budget
+  - `gross revenue`: Worldwide box office gross
+  - `country`: Country of production
+  - `production company`: Studio or company behind the movie
+  - `runtime`: Duration of the movie in minutes
+
+---
+
+
+| Feature               | Description |
+|-----------------------|-------------|
+| `movie name`          | Title of the movie |
+| `genre`               | Movie genre(s) such as Action, Drama, etc. |
 | `year of release`     | Year the movie was released |
 | `IMDb score`          | IMDb rating on a scale of 1–10 |
 | `viewer votes`        | Number of votes received by viewers |
@@ -26,12 +46,5 @@ movie name, rating, genre, year of release, IMDb score, viewer votes, Director, 
 | `country`             | Country of production |
 | `production company`  | Studio or company behind the movie |
 | `runtime`             | Duration of the movie in minutes |
-
-  - `revenue`: Revenue generated
-  - `vote_average`: Average viewer rating
-  - `vote_count`: Total number of votes
-  - `runtime`: Duration of the movie
-  - `popularity`: Popularity of the movie
-  - `release_year`: The yelease year of the movie
 
 ---
