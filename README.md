@@ -1,8 +1,10 @@
-## MOVIES DATA ANALYSIS AND CORRELATION
+# MOVIES DATA ANALYSIS AND CORRELATION
 
-# Overview
+# 🧠 Overview
+
 This project involves bit of Exploratory Data Analysis (EDA), data cleaning of the Movie Industry dataset from kaggle, the primary goal is to analyze the dataset and uncover correlations between various attributes, with exploring the relationships between budget, gross revenue, movie production companies, and much more.
 
+---
 
 # 📁 About the Dataset
 
@@ -24,6 +26,7 @@ This project involves bit of Exploratory Data Analysis (EDA), data cleaning of t
   - `production company`: Studio or company behind the movie
   - `runtime`: Duration of the movie in minutes
 
+---
 
 ## 📊 Visualizations & Insights
 
@@ -55,6 +58,7 @@ This bar chart showcases the top 15 production companies ranked by their total g
 This multi-year bar chart shows how the top-grossing companies have performed year by year. It offers a time-series perspective, highlighting how studios rise and fall over different years. For example, certain years may be dominated by Disney due to Marvel or Pixar releases, while others see Universal or Warner Bros. take the lead. This visualization reflects how industry leadership can shift based on release schedules, mergers, or trends in audience preferences.
 ![](https://i.imgur.com/Bk6ljkr.png)
 
+---
 
 ## 💡 Recommendations
 
@@ -73,6 +77,7 @@ This multi-year bar chart shows how the top-grossing companies have performed ye
 - **Analyze Yearly Trends**  
   The yearly breakdown of top-performing companies reveals shifts in industry dominance. Staying adaptive and analyzing yearly market trends can help identify the right timing and strategy for releases.
 
+---
 
 ## ✅ Conclusion
 
