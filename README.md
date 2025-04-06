@@ -28,20 +28,24 @@ This project involves bit of Exploratory Data Analysis (EDA), data cleaning of t
 ## 📊 Visualizations & Insights
 
 ### 🎯 1. Budget vs Gross Revenue  
-Shows a positive trend: higher budget movies generally generate more revenue, though exceptions exist with highly profitable low-budget films.
+This scatter plot reveals a strong positive correlation between a movie's budget and its gross revenue. However, the data also shows outliers—low-budget films that made huge profits, and high-budget films that failed to recover costs. This suggests that while budget is important, it's not the only factor influencing success.
 
 ### ⭐ 2. IMDb Score vs Viewer Votes  
-Highly rated movies often attract more votes. This suggests audience engagement increases with perceived quality.
+The data shows a moderate positive relationship between IMDb rating and number of votes. Movies with higher IMDb scores typically receive more attention and engagement. However, some cult classics with high ratings received fewer votes, indicating a niche but passionate audience base.
 
-### 🎥 3. Genre Popularity  
-Bar plots highlight which genres are produced most frequently and how they correlate with revenue and ratings.
+### 🎥 3. Genre Popularity Over Time  
+Bar plots and count plots help visualize how certain genres have trended over the years. Action, Drama, and Comedy remain dominant, while genres like Documentary and Musical show sporadic but notable success depending on era or societal interest.
 
-### 🧑‍🎓 4. Director and Star Influence  
-Analyzed top-performing directors and stars to see if certain names consistently deliver successful movies.
+### 🧑‍🎓 4. Director and Star Impact  
+Using group-by analysis and aggregation, we examined the influence of directors and lead stars on movie performance. Directors with consistent hits can boost a movie's chances, and some stars appear in multiple high-grossing or high-rated films—indicating their draw at the box office.
 
-### 📈 5. Correlation Heatmap  
-Visual matrix showing strong relationships between budget, gross revenue, and viewer votes.
+### ⏱️ 5. Runtime vs IMDb Score  
+A scatter plot between runtime and IMDb score shows no strong linear relationship. Both short and long films can be rated highly, depending on content quality and audience preference.
 
----
-
-
+### 📈 6. Correlation Heatmap
+![]"https://imgur.com/F8pdckB"
+A heatmap provided a comprehensive view of how numerical features relate. Strong positive correlations were found between:
+- Budget and Revenue  
+- Viewer Votes and IMDb Score  
+- Budget and Vote Count  
+Interestingly, runtime showed weak correlation with most metrics.
